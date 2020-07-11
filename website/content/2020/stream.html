@@ -22,9 +22,7 @@ layout: layout-2020
     height: 480,
     channel: "monstercat",
     layout: "video",
-    autoplay: false,
-    // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-    parent: [document.location.host || document.location.hostname]
+    autoplay: false
   });
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
